@@ -2,7 +2,7 @@
 class Player:
     """ You are the player """
 
-    def __init__(self, name, prof, maxhp, level, attack, defense = 5):
+    def __init__(self, name, maxhp=2, level=2, attack=2, defense = 5):
         self.name = name
         self.life = 1
         self.attack = attack
@@ -25,16 +25,20 @@ class Player:
 
 class Mage(Player):
     pass
+    # self.prof = "Mage"
     
 
 class Warrior(Player):
-    def __init__(self):
-        super().__init__(name = input("What is your characters name?"), prof = "Warrior", attack = 10, defense = 10,
-                         maxhp = 100, level = 1)
-        self.prof = "Warrior"
+    def __init__(self, name):
+    #    self.prof = "Warrior"
         self.maxhp = 100
         self.level = 1
+    
+    self.prof = "Warrior"
     ####################### This is what I was in the middle of working on it.
+
+class Odonnell(Player):
+    pass
 
 
 def profession():
@@ -49,9 +53,18 @@ def profession():
 
         #profession()
         
-#player_name = input("what is your name?")
-
+player_name = input("what is your name?")
+player_prof = input("what is your profession -choose W or M- ?")
 #profession
 
-x = Warrior()
-print(x.prof)
+odonnell = Odonnell(player_name, 1, 2, 3, 4)
+print(odonnell.name + "xxx")
+if player_prof == 'W':
+    x = Warrior(player_name)
+    print(x.prof)
+elif player_prof == 'M':
+    x = Mage(player_name)
+    x.prof = 'Mage'
+    print(x.prof)
+else:
+    print('warning you have not created a play character')
