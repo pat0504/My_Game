@@ -151,164 +151,165 @@ solved_places = {'a1': False, 'a2': False, 'a3': False, 'a4': False,
 zonemap = {
     'a1': {
         ZONENAME: '',
-        DESCRIPTION = 'You\'re in the woods above north from your house.'
-        EXAMINATION = 'There\'s a lot of trees, nothing too interesting.'
-        SOLVED = False
-        UP = '',
-        DOWN = 'b1',
-        LEFT = '',
-        RIGHT = 'a2',
+        DESCRIPTION: 'You\'re in the woods above north from your house.',
+        EXAMINATION: 'There\'s a lot of trees, nothing too interesting.',
+        SOLVED: False,
+        UP: '',
+        DOWN: 'b1',
+        LEFT: '',
+        RIGHT: 'a2',
     },
     'a2': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = '',
-        DOWN = 'b2',
-        LEFT = 'a1',
-        RIGHT = 'a3',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: '',
+        DOWN: 'b2',
+        LEFT: 'a1',
+        RIGHT: 'a3',
     },
     'a3': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = '',
-        DOWN = 'b3',
-        LEFT = 'a2',
-        RIGHT = 'a4',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: '',
+        DOWN: 'b3',
+        LEFT: 'a2',
+        RIGHT: 'a4',
     },
     'a4': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = '',
-        DOWN = 'b4',
-        LEFT = 'a3',
-        RIGHT = '',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: '',
+        DOWN: 'b4',
+        LEFT: 'a3',
+        RIGHT: '',
     },
     'b1': {
-        ZONENAME = ''
-        DESCRIPTION = 'Your place of residence. It\'s surrounded by woods'
-        EXAMINATION = 'Eh not much to do here, it\'s my home. East of my house is the town entrance''
-        SOLVED = False
-        UP = 'a1',
-        DOWN = 'c1',
-        LEFT = '',
-        RIGHT = 'b3',
+        ZONENAME: '',
+        DESCRIPTION: 'Your place of residence. It\'s surrounded by woods',
+        EXAMINATION: 'Eh not much to do here, it\'s my home. East of my house through the woods, is the town entrance',
+        SOLVED: False,
+        UP: 'a1',
+        DOWN: 'c1',
+        LEFT: '',
+        RIGHT: 'b3',
     },
     'b2': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'a2',
-        DOWN = 'c2',
-        LEFT = 'b1',
-        RIGHT = 'b3',
+        ZONENAME: '',
+        DESCRIPTION: 'The woods East of your house. ',
+        EXAMINATION: 'You see a gate ',
+        SOLVED: False,
+        UP: 'a2',
+        DOWN: 'c2',
+        LEFT: 'b1',
+        RIGHT: 'b3',
     },
     'b3': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'a3',
-        DOWN = 'c3',
-        LEFT = 'b2',
-        RIGHT = 'b4',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'a3',
+        DOWN: 'c3',
+        LEFT: 'b2',
+        RIGHT: 'b4',
     },
     'b4': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'a4',
-        DOWN = 'c4',
-        LEFT = 'b3',
-        RIGHT = '',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'a4',
+        DOWN: 'c4',
+        LEFT: 'b3',
+        RIGHT: '',
     },
     'c1': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'b1',
-        DOWN = 'd1',
-        LEFT = '',
-        RIGHT = 'c2',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'b1',
+        DOWN: 'd1',
+        LEFT: '',
+        RIGHT: 'c2',
     },
     'c2': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'b2',
-        DOWN = 'd2',
-        LEFT = 'c1',
-        RIGHT = 'c3',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'b2',
+        DOWN: 'd2',
+        LEFT: 'c1',
+        RIGHT: 'c3',
     },
     'c3': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'b3',
-        DOWN = 'd3',
-        LEFT = 'c2',
-        RIGHT = 'c4',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'b3',
+        DOWN: 'd3',
+        LEFT: 'c2',
+        RIGHT: 'c4',
     },
     'c4': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'b4',
-        DOWN = 'd4',
-        LEFT = 'c3',
-        RIGHT = '',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'b4',
+        DOWN: 'd4',
+        LEFT: 'c3',
+        RIGHT: '',
     },
     'd1': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'c1',
-        DOWN = '',
-        LEFT = '',
-        RIGHT = 'd2',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'c1',
+        DOWN: '',
+        LEFT: '',
+        RIGHT: 'd2',
     },
     'd2': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'c2',
-        DOWN = '',
-        LEFT = 'd1',
-        RIGHT = 'd3',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'c2',
+        DOWN: '',
+        LEFT: 'd1',
+        RIGHT: 'd3',
     },
     'd3': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'c3',
-        DOWN = '',
-        LEFT = 'd2',
-        RIGHT = 'd4',
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'c3',
+        DOWN: '',
+        LEFT: 'd2',
+        RIGHT: 'd4',
     },
     'd4': {
-        ZONENAME = ''
-        DESCRIPTION = 'description'
-        EXAMINATION = 'examination'
-        SOLVED = False
-        UP = 'c4'
-        DOWN = ''
-        LEFT = 'd3'
-        RIGHT = ''}
+        ZONENAME: '',
+        DESCRIPTION: 'description',
+        EXAMINATION: 'examination',
+        SOLVED: False,
+        UP: 'c4',
+        DOWN: '',
+        LEFT: 'd3',
+        RIGHT: ''}
     }
+
 def setup_game():
     os.system('clear')
 
@@ -317,11 +318,11 @@ def setup_game():
          sys.stdout.write(character)
          sys.stdout.flush()
          time.sleep(0.05)
-     player_name =("> ")
-     myPlayer.name = player_name
+         player_name =("> ")
+         myPlayer.name = player_name
 
     question2 = "Oh " + player_name + " is it?/n"
-    question2added = "What role would you like to play " + player_name "/n"
+    question2added = "What role would you like to play " + player_name + "/n"
     question2additional = "(Currently only warrior, priest, and mage are available)"
     for character in question2:
          sys.stdout.write(character)
@@ -335,28 +336,28 @@ def setup_game():
          sys.stdout.write(character)
          sys.stdout.flush()
          time.sleep(0.01)
-     player_job =("> ")
-     valid_jobs = ['warrior', 'mage', 'priest']
-     if player_job.lower() in valid_jobs:
+         player_job =("> ")
+         valid_jobs = ['warrior', 'mage', 'priest']
+    if player_job.lower() in valid_jobs:
          myPlayer.job = player_job
          print("You are now a " + player_job + "/n")
-     while player_job.lower() not in valid_jobs:
+    while player_job.lower() not in valid_jobs:
           if player_job.lower() in valid_jobs:
              myPlayer.job = player_job
              print("You are now a " + player_job + "!/n")
 
 ###### PLAYER STATS ######
-     if myPlayer.job is 'warrior':
-          self.hp = 120
-          self.mp = 20
-
-     elif myPlayer.job is 'mage':
-          self.hp = 40
-          self.mp = 120
+   if myPlayer.job is 'warrior':
+        self.hp = 120
+        self.mp = 20
+        
+   elif myPlayer.job is 'mage':
+        self.hp = 40
+        self.mp = 120
           
-     elif myPlayer.job is 'priest':
-          self.hp = 60
-          self.mp = 60
+   elif myPlayer.job is 'priest':
+        self.hp = 60
+        self.mp = 60
 
 #### INTRO ####
     question3 = "Welcome, " + player_name + "the fantastic" + player_job "/n"
@@ -388,6 +389,14 @@ def setup_game():
          sys.stdout.flush()
          time.sleep(0.06) 
 
+     os.sytem('clear')
+     print('################')
+     print('# Let us begin #'
+     print('################')
+     main_game_loop()
+
+
+     
 title_screen()
 
 
